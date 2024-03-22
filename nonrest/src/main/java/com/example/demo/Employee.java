@@ -1,4 +1,4 @@
-package payroll;
+package com.example.demo;
 
 import java.util.Objects;
 
@@ -16,6 +16,7 @@ class Employee {
   Employee() {}
 
   Employee(String name, String role) {
+
     this.name = name;
     this.role = role;
   }
@@ -46,6 +47,7 @@ class Employee {
 
   @Override
   public boolean equals(Object o) {
+
     if (this == o)
       return true;
     if (!(o instanceof Employee))
